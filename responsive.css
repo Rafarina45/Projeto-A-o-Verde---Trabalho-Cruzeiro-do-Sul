@@ -1,0 +1,28 @@
+/* Layout para dispositivos pequenos */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Layout para dispositivos ainda menores (móveis) */
+@media (max-width: 480px) {
+    nav ul li {
+        margin-right: 0;
+        margin-bottom: var(--space-sm);
+    }
+
+    form {
+        grid-template-columns: 1fr;
+    }
+}

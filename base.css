@@ -1,0 +1,48 @@
+:root {
+    /* Cores */
+    --primary-color: #4CAF50; /* Verde */
+    --secondary-color: #FF9800; /* Laranja */
+    --neutral-light: #F1F1F1; /* Branco Claro */
+    --neutral-dark: #333; /* Preto */
+
+    /* Tipografia */
+    --font-family: 'Arial', sans-serif;
+    --font-size-base: 16px;
+    --font-size-lg: 20px;
+    --font-size-xl: 24px;
+    --font-size-xxl: 32px;
+    --font-size-xxxl: 48px;
+
+    /* Espaçamentos */
+    --space-xs: 8px;
+    --space-sm: 16px;
+    --space-md: 24px;
+    --space-lg: 32px;
+    --space-xl: 48px;
+}
+
+body {
+    font-family: var(--font-family);
+    font-size: var(--font-size-base);
+    margin: 0;
+    padding: 0;
+    background-color: var(--neutral-light);
+    color: var(--neutral-dark);
+}
+
+/* Definindo tipografia */
+h1, h2, h3 {
+    font-weight: bold;
+}
+
+h1 {
+    font-size: var(--font-size-xxxl);
+}
+
+h2 {
+    font-size: var(--font-size-xl);
+}
+
+h3 {
+    font-size: var(--font-size-lg);
+}

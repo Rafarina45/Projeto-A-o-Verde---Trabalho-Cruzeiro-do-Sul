@@ -1,0 +1,15 @@
+/* Tema claro (default) */
+body {
+    background-color: var(--neutral-light);
+    color: var(--neutral-dark);
+}
+
+/* Tema escuro */
+body.dark-theme {
+    background-color: #333;
+    color: #f1f1f1;
+}
+
+body.dark-theme header {
+    background-color: #444;
+}
